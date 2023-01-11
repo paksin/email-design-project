@@ -5,134 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Muji Email Newsletter Demo</title>
-    <style type="text/css">
-      body {
-        margin: 0;
-        background-color: #cccccc;
-      }
-      table {
-        border-spacing: 0;
-      }
-      td {
-        padding: 0;
-      }
-      img {
-        border: 0;
-      }
-      .fade-slow {
-        transition: 0.3s !important;
-      }
+    <style>
       .fade-slow:hover {
         transition: 0.3s !important;
         opacity: 0.7 !important;
-      }
-      .wrapper {
-        width: 100%;
-        table-layout: fixed;
-        background-color: #cccccc;
-        padding-bottom: 60px;
-      }
-      .main {
-        background-color: #ffffff;
-        margin: 0 auto;
-        width: 100%;
-        max-width: 600px;
-        border-spacing: 0;
-        font-family: sans-serif;
-        color: #171a1b;
-      }
-      .two-columns {
-        text-align: center;
-        font-size: 0;
-      }
-      .two-columns .column {
-        width: 100%;
-        max-width: 300px;
-        display: inline-block;
-        vertical-align: top;
-        text-align: center;
-      }
-      .three-columns {
-        text-align: center;
-        font-size: 0;
-        padding: 15px 0 25px;
-      }
-      .three-columns .column {
-        width: 100%;
-        max-width: 200px;
-        display: inline-block;
-        vertical-align: top;
-        text-align: center;
-      }
-      .three-columns .padding {
-        padding: 15px;
-      }
-      .three-columns .content {
-        font-size: 15px;
-        line-height: 20px;
-        padding: 0 5px;
-      }
-      .three-columns img {
-        padding-bottom: 20px;
-      }
-      .two-columns.last {
-        padding: 15px 0;
-      }
-      .two-columns .padding {
-        padding: 20px;
-      }
-      .two-columns .content {
-        font-size: 15px;
-        line-height: 20px;
-        text-align: left;
-      }
-      .button {
-        background-color: #ffffff;
-        color: #7f0019;
-        text-decoration: none;
-        padding: 12px 20px;
-        border-radius: 5px;
-        font-weight: bold;
       }
       .button:hover {
         background-color: #cccccc !important;
         text-decoration: none !important;
         color: #7f0019 !important;
       }
-      .button-light {
-        background-color: #e8e9eb;
-        color: #7f0019;
-        text-decoration: none;
-        padding: 12px 20px;
-        border-radius: 5px;
-        font-weight: bold;
-      }
       .button-light:hover {
         background-color: #cccccc !important;
         text-decoration: none !important;
         color: #7f0019 !important;
       }
-      .footer-break {
-        border: 1px solid #cccccc;
-        margin: 0 20px 45px;
-      }
     </style>
   </head>
-  <body>
-    <center class="wrapper">
-      <table class="main" width="100%">
+  <body style="margin: 0; background-color: #cccccc">
+    <center
+      class="wrapper"
+      style="
+        width: 100%;
+        table-layout: fixed;
+        background-color: #cccccc;
+        padding-bottom: 60px;
+      "
+    >
+      <table
+        class="main"
+        width="100%"
+        style="
+          background-color: #ffffff;
+          margin: 0 auto;
+          width: 100%;
+          max-width: 600px;
+          border-spacing: 0;
+          font-family: sans-serif;
+          color: #171a1b;
+        "
+      >
         <!-- TOP BORDER -->
         <tr>
-          <td height="8" style="background-color: #7f0019"></td>
+          <td height="8" style="padding: 0; background-color: #7f0019"></td>
         </tr>
-
         <!-- LOGO SECTION -->
         <tr>
           <td style="padding: 14px 0 4px">
-            <table width="100%">
+            <table width="100%" style="border-spacing: 0">
               <tr>
-                <td class="two-columns">
-                  <table class="column">
+                <td
+                  class="two-columns"
+                  style="padding: 0; text-align: center; font-size: 0"
+                >
+                  <table
+                    class="column"
+                    style="
+                      border-spacing: 0;
+                      width: 100%;
+                      max-width: 300px;
+                      display: inline-block;
+                      vertical-align: top;
+                      text-align: center;
+                    "
+                  >
                     <tr>
                       <td style="padding: 0 62px 10px">
                         <a href="https://muji.ca/"
@@ -142,11 +78,22 @@
                             width="180"
                             title="Muji Logo"
                             class="fade-slow"
+                            style="border: 0; transition: 0.3s !important"
                         /></a>
                       </td>
                     </tr>
                   </table>
-                  <table class="column">
+                  <table
+                    class="column"
+                    style="
+                      border-spacing: 0;
+                      width: 100%;
+                      max-width: 300px;
+                      display: inline-block;
+                      vertical-align: top;
+                      text-align: center;
+                    "
+                  >
                     <tr>
                       <td style="padding: 0 105px">
                         <a
@@ -156,7 +103,11 @@
                             src="https://res.cloudinary.com/davswvpty/image/upload/v1673408278/samples/muji-red-_Facebook-icon-06_wi7gae.png"
                             alt="facebook-page"
                             width="25"
-                            style="padding: 7px 2px"
+                            style="
+                              border: 0;
+                              transition: 0.3s !important;
+                              padding: 7px 2px;
+                            "
                             class="fade-slow"
                           />
                         </a>
@@ -167,7 +118,11 @@
                             src="https://res.cloudinary.com/davswvpty/image/upload/v1673408278/samples/muji-red-_Twitter-icon-07_i4bqwm.png"
                             alt="twitter-page"
                             width="25"
-                            style="padding: 7px 2px"
+                            style="
+                              border: 0;
+                              transition: 0.3s !important;
+                              padding: 7px 2px;
+                            "
                             class="fade-slow"
                           />
                         </a>
@@ -178,7 +133,11 @@
                             src="https://res.cloudinary.com/davswvpty/image/upload/v1673408278/samples/muji-red-_Ig-icon_qpwhyt.png"
                             alt="instagram-page"
                             width="25"
-                            style="padding: 7px 2px"
+                            style="
+                              border: 0;
+                              transition: 0.3s !important;
+                              padding: 7px 2px;
+                            "
                             class="fade-slow"
                           />
                         </a>
@@ -190,33 +149,57 @@
             </table>
           </td>
         </tr>
-
         <!-- BANNER IMAGE -->
         <tr>
-          <td>
+          <td style="padding: 0">
             <a href="https://muji.ca/collections/limited-time-offers"
               ><img
                 src="https://cdn.shopify.com/s/files/1/0485/1810/3193/collections/22_wk16_0421LTV_Aroma_1352x525.jpg?v=1672947187"
                 alt="lunar-new-year-special"
                 width="600"
-                style="max-width: 100%"
+                style="border: 0; transition: 0.3s !important; max-width: 100%"
                 class="fade-slow"
             /></a>
           </td>
         </tr>
-
         <!-- THREE COLUMN SECTION -->
         <tr>
-          <td>
-            <table width="100%">
+          <td style="padding: 0">
+            <table width="100%" style="border-spacing: 0">
               <tr>
-                <td class="three-columns">
-                  <table class="column">
+                <td
+                  class="three-columns"
+                  style="
+                    padding: 0;
+                    text-align: center;
+                    font-size: 0;
+                    padding: 15px 0 25px;
+                  "
+                >
+                  <table
+                    class="column"
+                    style="
+                      border-spacing: 0;
+                      width: 100%;
+                      max-width: 200px;
+                      display: inline-block;
+                      vertical-align: top;
+                      text-align: center;
+                    "
+                  >
                     <tr>
-                      <td class="padding">
-                        <table class="content">
+                      <td class="padding" style="padding: 0; padding: 15px">
+                        <table
+                          class="content"
+                          style="
+                            border-spacing: 0;
+                            font-size: 15px;
+                            line-height: 20px;
+                            padding: 0 5px;
+                          "
+                        >
                           <tr>
-                            <td>
+                            <td style="padding: 0">
                               <a
                                 href="https://muji.ca/collections/housekeeping-goods"
                               >
@@ -225,11 +208,16 @@
                                   alt="housekeeping-goods"
                                   width="100%"
                                   class="fade-slow"
+                                  style="
+                                    border: 0;
+                                    padding-bottom: 20px;
+                                    transition: 0.3s !important;
+                                  "
                               /></a>
                             </td>
                           </tr>
                           <tr>
-                            <td>
+                            <td style="padding: 0">
                               <a
                                 href="https://muji.ca/collections/housekeeping-goods"
                                 style="text-decoration: none; color: #7f0019"
@@ -247,20 +235,38 @@
                                   Start January off with a clean home. Shop our
                                   efficient cleaning products perfect for any
                                   need.
-                                </p></a
-                              >
+                                </p>
+                              </a>
                             </td>
                           </tr>
                         </table>
                       </td>
                     </tr>
                   </table>
-                  <table class="column">
+                  <table
+                    class="column"
+                    style="
+                      border-spacing: 0;
+                      width: 100%;
+                      max-width: 200px;
+                      display: inline-block;
+                      vertical-align: top;
+                      text-align: center;
+                    "
+                  >
                     <tr>
-                      <td class="padding">
-                        <table class="content">
+                      <td class="padding" style="padding: 0; padding: 15px">
+                        <table
+                          class="content"
+                          style="
+                            border-spacing: 0;
+                            font-size: 15px;
+                            line-height: 20px;
+                            padding: 0 5px;
+                          "
+                        >
                           <tr>
-                            <td>
+                            <td style="padding: 0">
                               <a
                                 href="https://muji.ca/collections/cleaning-system"
                               >
@@ -269,12 +275,17 @@
                                   alt="cleaning-system"
                                   width="100%"
                                   class="fade-slow"
+                                  style="
+                                    border: 0;
+                                    padding-bottom: 20px;
+                                    transition: 0.3s !important;
+                                  "
                                 />
                               </a>
                             </td>
                           </tr>
                           <tr>
-                            <td>
+                            <td style="padding: 0">
                               <a
                                 href="https://muji.ca/collections/cleaning-system"
                                 style="text-decoration: none; color: #7f0019"
@@ -291,20 +302,38 @@
                                 <p style="color: #7f0019">
                                   Incorporate this efficient cleaning system
                                   into your routine. Buy 2 or more, get 20% OFF.
-                                </p></a
-                              >
+                                </p>
+                              </a>
                             </td>
                           </tr>
                         </table>
                       </td>
                     </tr>
                   </table>
-                  <table class="column">
+                  <table
+                    class="column"
+                    style="
+                      border-spacing: 0;
+                      width: 100%;
+                      max-width: 200px;
+                      display: inline-block;
+                      vertical-align: top;
+                      text-align: center;
+                    "
+                  >
                     <tr>
-                      <td class="padding">
-                        <table class="content">
+                      <td class="padding" style="padding: 0; padding: 15px">
+                        <table
+                          class="content"
+                          style="
+                            border-spacing: 0;
+                            font-size: 15px;
+                            line-height: 20px;
+                            padding: 0 5px;
+                          "
+                        >
                           <tr>
-                            <td>
+                            <td style="padding: 0">
                               <a
                                 href="https://muji.ca/collections/storage-organization"
                               >
@@ -313,11 +342,16 @@
                                   alt="storage-organization"
                                   width="100%"
                                   class="fade-slow"
+                                  style="
+                                    border: 0;
+                                    padding-bottom: 20px;
+                                    transition: 0.3s !important;
+                                  "
                               /></a>
                             </td>
                           </tr>
                           <tr>
-                            <td>
+                            <td style="padding: 0">
                               <a
                                 href="https://muji.ca/collections/storage-organization"
                                 style="text-decoration: none; color: #7f0019"
@@ -334,8 +368,8 @@
                                 <p style="color: #7f0019">
                                   Start off the year clutter free. Buy 2 or more
                                   storage items, get 15% OFF.
-                                </p></a
-                              >
+                                </p>
+                              </a>
                             </td>
                           </tr>
                         </table>
@@ -347,20 +381,44 @@
             </table>
           </td>
         </tr>
-
         <!-- TWO COLUMN SECTION -->
-
         <tr>
-          <td style="background-color: #7f0019; color: #ffffff">
-            <table width="100%">
+          <td style="padding: 0; background-color: #7f0019; color: #ffffff">
+            <table width="100%" style="border-spacing: 0">
               <tr>
-                <td class="two-columns last">
-                  <table class="column">
+                <td
+                  class="two-columns last"
+                  style="
+                    padding: 0;
+                    text-align: center;
+                    font-size: 0;
+                    padding: 15px 0;
+                  "
+                >
+                  <table
+                    class="column"
+                    style="
+                      border-spacing: 0;
+                      width: 100%;
+                      max-width: 300px;
+                      display: inline-block;
+                      vertical-align: top;
+                      text-align: center;
+                    "
+                  >
                     <tr>
-                      <td class="padding">
-                        <table class="content">
+                      <td class="padding" style="padding: 0; padding: 20px">
+                        <table
+                          class="content"
+                          style="
+                            border-spacing: 0;
+                            font-size: 15px;
+                            line-height: 20px;
+                            text-align: left;
+                          "
+                        >
                           <tr>
-                            <td>
+                            <td style="padding: 0">
                               <a
                                 href="https://muji.ca/collections/bedding-sale"
                               >
@@ -368,10 +426,12 @@
                                   src="https://cdn.shopify.com/s/files/1/0485/1810/3193/files/MicrosoftTeams-image_99_408x726_crop_center.jpg?v=1672436186"
                                   alt="bedding-sale"
                                   style="
+                                    border: 0;
+                                    transition: 0.3s !important;
                                     object-fit: cover;
                                     width: 260px;
                                     height: 250px;
-                                    max-width: 260px;
+                                    max-width: 260px; ;
                                   "
                                   class="fade-slow"
                               /></a>
@@ -381,12 +441,30 @@
                       </td>
                     </tr>
                   </table>
-                  <table class="column">
+                  <table
+                    class="column"
+                    style="
+                      border-spacing: 0;
+                      width: 100%;
+                      max-width: 300px;
+                      display: inline-block;
+                      vertical-align: top;
+                      text-align: center;
+                    "
+                  >
                     <tr>
-                      <td class="padding">
-                        <table class="content">
+                      <td class="padding" style="padding: 0; padding: 20px">
+                        <table
+                          class="content"
+                          style="
+                            border-spacing: 0;
+                            font-size: 15px;
+                            line-height: 20px;
+                            text-align: left;
+                          "
+                        >
                           <tr>
-                            <td>
+                            <td style="padding: 0">
                               <p style="font-weight: bold; font-size: 18px">
                                 Refresh Your Bedding
                               </p>
@@ -399,6 +477,14 @@
                               <a
                                 href="https://muji.ca/collections/bedding-sale"
                                 class="button"
+                                style="
+                                  background-color: #ffffff;
+                                  color: #7f0019;
+                                  text-decoration: none;
+                                  padding: 12px 20px;
+                                  border-radius: 5px;
+                                  font-weight: bold;
+                                "
                                 >Shop Now</a
                               >
                             </td>
@@ -412,18 +498,43 @@
             </table>
           </td>
         </tr>
-
         <tr>
-          <td style="color: #7f0019">
-            <table width="100%">
+          <td style="padding: 0; color: #7f0019">
+            <table width="100%" style="border-spacing: 0">
               <tr>
-                <td class="two-columns last">
-                  <table class="column">
+                <td
+                  class="two-columns last"
+                  style="
+                    padding: 0;
+                    text-align: center;
+                    font-size: 0;
+                    padding: 15px 0;
+                  "
+                >
+                  <table
+                    class="column"
+                    style="
+                      border-spacing: 0;
+                      width: 100%;
+                      max-width: 300px;
+                      display: inline-block;
+                      vertical-align: top;
+                      text-align: center;
+                    "
+                  >
                     <tr>
-                      <td class="padding">
-                        <table class="content">
+                      <td class="padding" style="padding: 0; padding: 20px">
+                        <table
+                          class="content"
+                          style="
+                            border-spacing: 0;
+                            font-size: 15px;
+                            line-height: 20px;
+                            text-align: left;
+                          "
+                        >
                           <tr>
-                            <td>
+                            <td style="padding: 0">
                               <p style="font-weight: bold; font-size: 18px">
                                 Refresh Your Bedding
                               </p>
@@ -436,6 +547,14 @@
                               <a
                                 href="https://www.muji.com/ca/furniture-catalogue/"
                                 class="button-light"
+                                style="
+                                  background-color: #e8e9eb;
+                                  color: #7f0019;
+                                  text-decoration: none;
+                                  padding: 12px 20px;
+                                  border-radius: 5px;
+                                  font-weight: bold;
+                                "
                                 >View More</a
                               >
                             </td>
@@ -444,22 +563,42 @@
                       </td>
                     </tr>
                   </table>
-                  <table class="column">
+                  <table
+                    class="column"
+                    style="
+                      border-spacing: 0;
+                      width: 100%;
+                      max-width: 300px;
+                      display: inline-block;
+                      vertical-align: top;
+                      text-align: center;
+                    "
+                  >
                     <tr>
-                      <td class="padding">
-                        <table class="content">
+                      <td class="padding" style="padding: 0; padding: 20px">
+                        <table
+                          class="content"
+                          style="
+                            border-spacing: 0;
+                            font-size: 15px;
+                            line-height: 20px;
+                            text-align: left;
+                          "
+                        >
                           <tr>
-                            <td>
+                            <td style="padding: 0">
                               <a
                                 href="https://www.muji.com/ca/furniture-catalogue/"
                                 ><img
                                   src="https://www.muji.com/ca/furniture-catalogue/FurnitureCatalogue-Thumbnail.jpg"
                                   alt="bedding-sale"
                                   style="
+                                    border: 0;
+                                    transition: 0.3s !important;
                                     object-fit: cover;
                                     width: 260px;
                                     height: 250px;
-                                    max-width: 260px;
+                                    max-width: 260px; ;
                                   "
                                   class="fade-slow"
                               /></a>
@@ -474,23 +613,28 @@
             </table>
           </td>
         </tr>
-
         <!-- FOOTER SECTION -->
-
         <tr>
-          <td>
-            <table width="100%">
+          <td style="padding: 0">
+            <table width="100%" style="border-spacing: 0">
               <tr>
                 <td
                   style="text-align: center; padding: 45px 20px; color: #ffffff"
                 >
-                  <hr class="footer-break" />
+                  <hr
+                    class="footer-break"
+                    style="border: 1px solid #cccccc; margin: 0 20px 45px"
+                  />
                   <a href="https://www.muji.com/ca/"
                     ><img
                       src="https://www.muji.com/img/logo_muji_b.png"
                       alt=""
                       width="180"
-                      style="margin-bottom: 30px"
+                      style="
+                        border: 0;
+                        transition: 0.3s !important;
+                        margin-bottom: 30px;
+                      "
                       class="fade-slow"
                   /></a>
                   <p style="padding: 10px; color: #171a1b; font-size: 13px">
@@ -501,7 +645,6 @@
                     or any MUJI Canada store location until January 31st, 2023.
                     Restrictions apply.
                   </p>
-
                   <p style="color: #171a1b; font-size: 13px">
                     No longer want to receive these emails?
                     <a href="#" style="color: #7f0019">Unsubscribe</a>
@@ -524,7 +667,11 @@
                       src="https://res.cloudinary.com/davswvpty/image/upload/v1673408278/samples/muji-red-_Facebook-icon-06_wi7gae.png"
                       alt="facebook-page"
                       width="25"
-                      style="padding: 7px 2px"
+                      style="
+                        border: 0;
+                        transition: 0.3s !important;
+                        padding: 7px 2px;
+                      "
                       class="fade-slow"
                     />
                   </a>
@@ -535,7 +682,11 @@
                       src="https://res.cloudinary.com/davswvpty/image/upload/v1673408278/samples/muji-red-_Twitter-icon-07_i4bqwm.png"
                       alt="twitter-page"
                       width="25"
-                      style="padding: 7px 2px"
+                      style="
+                        border: 0;
+                        transition: 0.3s !important;
+                        padding: 7px 2px;
+                      "
                       class="fade-slow"
                     />
                   </a>
@@ -546,7 +697,11 @@
                       src="https://res.cloudinary.com/davswvpty/image/upload/v1673408278/samples/muji-red-_Ig-icon_qpwhyt.png"
                       alt="instagram-page"
                       width="25"
-                      style="padding: 7px 2px"
+                      style="
+                        border: 0;
+                        transition: 0.3s !important;
+                        padding: 7px 2px;
+                      "
                       class="fade-slow"
                     />
                   </a>
@@ -562,30 +717,31 @@
     </center>
   </body>
 </html>
-
-<link
-  rel="stylesheet"
-  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-  crossorigin="anonymous"
-/>
-<link
-  href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400&display=swap"
-  rel="stylesheet"
-/>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
-<script
-  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-  crossorigin="anonymous"
-></script>
-<script
-  src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-  crossorigin="anonymous"
-></script>
-<script
-  src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-  crossorigin="anonymous"
-></script>
+<html>
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400&display=swap"
+    rel="stylesheet"
+  />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"
+  ></script>
+</html>
