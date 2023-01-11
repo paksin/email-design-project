@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a demo of Muji's monthly email newsletters. This personal project is done solely with HTML and styled with internal and in-line CSS codes for best viewing experience in email. Also, the email is designed with user experience in mind, hence it is highly responsive and optimized for mobile viewing.
+This is a demo of Muji's monthly email newsletters. This personal project is done solely with HTML and styled with internal and in-line CSS codes for best viewing experience in email. Also, the email is designed with user experience in mind, hence it is highly responsive and optimized for mobile viewing. Features for this email includes hover effects on images and buttons, clickable links, buttons, and images.
 
 ## Installation
 
